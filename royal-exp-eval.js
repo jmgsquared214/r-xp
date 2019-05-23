@@ -1,4 +1,9 @@
-/* Big O time complexity: the algorithm has a polynomial time complexity -- specifically O(n^2) -- because it requires 2 levels of looping over an input (nested loops). */
+/* 
+Big O time complexity: the algorithm has a polynomial time complexity -- specifically O(n^2) -- because it requires 2 levels of looping over an input (nested loops). 
+
+best & worst case: polynomial time complexity
+
+*/
 
 function aggregateData(data) {
   data.sort((a, b) => a.paytype_id - b.paytype_id);
